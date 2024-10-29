@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../pictures/BackgroundImages/EU8ACM0UcAUvSV4.png);
+    background-color: linear (#333334, #226600);
+}
+
+.newest-drop {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Weapon damage types */
+
+/* kinetic slot stuffs */
+
+.kinetic-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    height: 10rem;
+    width: 20rem;
+    background: linear-gradient(#333334, rgb(100, 50, 160));
+    padding-right: 3.5rem;
+    margin: .5rem;
+}
+
+.kinetic-damage-types {
+    margin-top: -2.7rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.kinetic-slot:hover {
+    background: linear-gradient( rgb(100, 50, 160),#333334);
+}
+.kinetic-text {
+    height: auto;
+    width: 200px;
+}
+
+/* kinetic slot images fuckandthat */
+.kinetic-damage-images {
+    height: 2rem;
+    width: 2rem
+}
+.kinetic-images {
+    height: 8rem
+}
+
+/* Energy slot stuffs */
+.energy-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    height: 10rem;
+    width: 20rem;
+    background: linear-gradient(#333334, rgb(100, 50, 160));
+    padding-right: 2rem;
+    margin: .5rem;
+}
+
+.energy-damage-types {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.energy-slot:hover {
+    background: linear-gradient( rgb(100, 50, 160),#333334);
+}
+/* energy slot images fuckandthat */
+.energy-damage-images {
+    height: 2rem;
+    width: 2rem
+}
+.energy-images {
+    height: 8rem
+}
+
+/* heavy slot stuffs */
+
+.heavy-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    height: 10rem;
+    width: 20rem;
+    background: linear-gradient(#333334, rgb(100, 50, 160));
+    padding-right: 2rem;
+    margin: .5rem;
+}
+
+.heavy-damage-types {
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heavy-slot:hover {
+    background: linear-gradient( rgb(100, 50, 160),#333334);
+}
+/* heavy slot images fuckandthat */
+.heavy-damage-images {
+    height: 2rem;
+    width: 2rem
+}
+.heavy-images {
+    height: 8rem
+}
+
+

@@ -1,0 +1,10 @@
+/* Damage Type Image Stylings */
+
+/* kinetic styling */
+
+.strand-damage-type {
+    height: 3rem;
+    transform: scale(.8);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

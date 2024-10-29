@@ -1,0 +1,13 @@
+/* hidden at first */
+.weapon-type-kinetic {
+    display: none; /* Initially hidden */
+}
+.weapon-type-energy {
+    display: none; /* Initially hidden */
+}
+.weapon-type-heavy {
+    display: none; /* Initially hidden */
+}
+
+
+ 
